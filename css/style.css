@@ -224,3 +224,40 @@ li {
 .designer-name {
     color: rgb(80, 79, 79);
 }
+
+@media all and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    header {
+        height: 100%;
+        width: 200%
+    }
+    h2 {
+        display: flex;
+        font-size: 20px;
+        width: 100%;
+        font-weight: 300;
+        padding-left: 20%;
+    }
+    h1 {
+        display: flex;
+        font-size: 40px;
+        width: 100%;
+        font-weight: 300;
+        padding-left: 15%; 
+    }
+    .zen-resources ul li {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        justify-content: center;
+    }
+    .requirements p:last-child a {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 4px;
+    }
+}
